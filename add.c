@@ -1,5 +1,5 @@
 /*add.c*/
-/* #include "add.h" */
+#include "add.h"
 
 int add(int a, int b)
 
