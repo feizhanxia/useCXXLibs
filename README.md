@@ -43,7 +43,7 @@ GNU：GNU's Not Unix（GNU 是一个计划或者叫运动，最初是为了替�
 
 
 ```mermaid
-flowchart TB
+flowchart LR
 A[源代码]
 B((预处理器))
 C[目标代码]
