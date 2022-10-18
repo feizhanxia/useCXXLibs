@@ -1,6 +1,8 @@
-以前的一些知识加上从网上搜许多资料，有问题敬请指出，请多担待。
+# Notes for compiling C/C++
 
-1 编译器和解释器
+> 以前的一些知识加上从网上搜许多资料，有问题敬请指出，请多担待。
+
+## 编译器和解释器
 
 编译器（Complier）：源代码文件；编译，执行
 
@@ -11,7 +13,7 @@
 JIT（Just-In-Time），REPL（Read–Eval–Print Loop）
 jupyter notebook、Mathematica Notebook & Wolfram Language、Python、Julia、Numba（jit python numpy code）
 
-2 编译器
+## 编译器
 
 GCC：GNU Complier Collection
 
@@ -59,12 +61,12 @@ C/C++一些常见的文件后缀：
 
 一些细节：编译器和连接器如何知道依赖的文件有哪些，去哪里找？
 
-详见实例：编译运行源代码的过程
+### 详见实例：编译运行源代码的过程
 
-3 把编译过程和依赖文件写成文件：make
+## 把编译过程和依赖文件写成文件：make
 
 makefile
 
-4 **跨平台**生成对应平台能用的makefile：cmake
+## **跨平台**生成对应平台能用的makefile：cmake
 
 CMakeLists.txt
