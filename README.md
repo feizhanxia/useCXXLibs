@@ -165,6 +165,8 @@ main.c : main(){add();sub();gsl_sf_bessel_J0();}
 
 ## 把编译过程和依赖文件写成文件：make
 
+ [*(参考)*](https://seisman.github.io/how-to-write-makefile/introduction.html)
+
 使用默认的 makefile/Makefile 命令：`make` # 默认使用makefile/Makefile
 
 指定makefile命令：`make -f [MakefileName]`
@@ -208,11 +210,11 @@ cleanall:
 	rm main $(obj) libmymath.a
 ```
 
-## **跨平台**生成对应平台能用的makefile：cmake
+## **跨平台**生成对应平台能用的makefile：CMake
 
-通过自行编辑的 CMakeLists.txt 中的内容，cmake可以自动生成适用当前平台的makefile，构建一个可执行文件。**Clion: A cross-platform IDE for C and C++** 当中默认使用CMake，作简要展示。
+通过自行编辑的 CMakeLists.txt 中的内容，CMake可以自动生成适用当前平台的makefile，构建一个可执行文件。**Clion: A cross-platform IDE for C and C++** 当中默认使用CMake，作简要展示。
 
-通过自行编辑的 CMakeLists.txt 中的内容，cmake可以自动生成适用当前平台的makefile，构建一个可执行文件。**Clion: A cross-platform IDE for C and C++** 当中默认使用CMake，作简要展示。
+通过自行编辑的 CMakeLists.txt 中的内容，CMake可以自动生成适用当前平台的Makefile，构建一个可执行文件。**Clion: A cross-platform IDE for C and C++** 当中默认使用CMake，作简要展示。
 
 
 
