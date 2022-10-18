@@ -1,6 +1,6 @@
 # Notes for compiling C/C++
 
-可以下载展示 Slide 的 [keynote版](Notes_for_compiling_C/C++.key) 或 [PDF版](Notes_for_compiling_C/C++.pdf) 以在本地阅读。
+可以下载展示 Slide 的 [keynote版](Notes_for_compiling_C_CXX.key) 或 [PDF版](Notes_for_compiling_C_CXX.pdf) 以在本地阅读。
 
 > 以前的一些知识加上从网上搜许多资料，有问题敬请指出，请多担待。
 
